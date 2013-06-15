@@ -19,3 +19,6 @@ end
 package "x2goserver" do 
   action :install
 end
+package "chromium" do
+  action :install
+end
