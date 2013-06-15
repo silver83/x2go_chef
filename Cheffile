@@ -1,0 +1,5 @@
+#used by librarian to get external cookbooks
+site "http://community.opscode.com/api/v1"
+
+cookbook "apt",
+  :git => "git://github.com/opscode-cookbooks/apt.git"
