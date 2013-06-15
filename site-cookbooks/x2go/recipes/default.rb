@@ -16,4 +16,6 @@ apt_repository "x2go" do
   key "E1F958385BFE2B6E"
   deb_src true
 end
-
+package "x2goserver" do 
+  action :install
+end
